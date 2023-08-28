@@ -1,0 +1,19 @@
+.sidebar
+{
+    width: 200px;
+    min-height: 100vh;
+    z-index: 999;
+}
+.sidebar
+{
+    transition: all .375s ease-in-out;
+}
+.dashboard-card
+{
+    transition: transform .375s ease-in-out;
+}
+.dashboard-card:hover 
+{
+    transform: translateY(-5%);
+    cursor: pointer;
+}

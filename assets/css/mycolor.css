@@ -1,0 +1,23 @@
+:root 
+{
+    --my-primary-clr: #087EE1;
+    --my-secondary-clr: #05E8BA;
+}
+.my-primary-bg
+{
+    background-color: var(--my-primary-clr);
+}
+.my-primary-clr
+{
+    color: var(--my-primary-clr);
+}
+.my-gradient 
+{
+    background: linear-gradient(90deg, #087EE1 0%, #05E8BA 100%);  
+}
+.my-gradient-border
+{
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #087EE1 0%, #05E8BA 100%) !important;  
+}
